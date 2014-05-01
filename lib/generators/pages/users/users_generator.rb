@@ -13,7 +13,7 @@ module Pages
         copy_file 'users/show.html.erb', 'app/views/users/show.html.erb'
         copy_file 'users_controller.rb', 'app/controllers/users_controller.rb'
         route = '  resources :users'
-        inject_into_file 'config/routes.rb', route + "\n", :after => "routes.draw do\n"
+        inject_into_file 'config/routes.rb', route + "\n", :before => "end"
         copy_file 'visitors/index.html.erb', 'app/views/visitors/index.html.erb'
         copy_file 'visitors_controller.rb', 'app/controllers/visitors_controller.rb'
         route = '  root :to => "visitors#index"'

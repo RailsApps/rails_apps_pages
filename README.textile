@@ -61,6 +61,30 @@ root :to => "visitors#index"
 
 Why a "Visitors" controller? Why not a "Home" controller or "Welcome" controller? Those names are acceptable. But the home page often implements a user story for a persona named "visitor," so a "Visitors" controller is appropriate.
 
+h2. Generate User Pages
+
+To run the generator and create pages to accompany a User model:
+
+<pre>
+$ rails generate pages:users
+</pre>
+
+The generator will create:
+
+* app/views/visitors/index.html.erb
+* app/controllers/visitors_controller.rb
+* app/views/users/_user.html.erb
+* app/views/users/index.html.erb
+* app/views/users/show.html.erb
+* app/controllers/users_controller.rb
+
+It will add routes to the *config/routes.rb* file:
+
+<pre>
+resources :users
+root :to => "visitors#index"
+</pre>
+
 h2. Clean a Gemfile
 
 Remove commented lines and multiple blank lines from a Gemfile:
