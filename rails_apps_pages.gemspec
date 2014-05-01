@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RailsAppsPages::VERSION
   spec.authors       = ["Daniel Kehoe"]
   spec.email         = ["daniel@danielkehoe.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Add pages to a Rails application, including controllers, views, and routing.}
+  spec.description   = %q{A utility gem to use during development. Generates controllers, views, and routing.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
