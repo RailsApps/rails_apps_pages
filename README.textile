@@ -42,17 +42,24 @@ $ bundle install
 
 h2. Generate a Home Page
 
-To run the generator and create pages:
+To run the generator and create a home page:
 
 <pre>
 $ rails generate pages:home
 </pre>
 
-Use @--force@ if you want to overwrite existing files:
+The generator will create:
+
+* app/views/visitors/index.html.erb
+* app/controllers/visitors_controller.rb
+
+It will add a route to the *config/routes.rb* file:
 
 <pre>
-$ rails generate pages:home --force
+root :to => "visitors#index"
 </pre>
+
+Why a "Visitors" controller? Why not a "Home" controller or "Welcome" controller? Those names are acceptable. But the home page often implements a user story for a persona named "visitor," so a "Visitors" controller is appropriate.
 
 h2. Clean a Gemfile
 
