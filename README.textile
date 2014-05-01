@@ -54,6 +54,22 @@ Use @--force@ if you want to overwrite existing files:
 $ rails generate pages:home --force
 </pre>
 
+h2. Clean a Gemfile
+
+Remove commented lines and multiple blank lines from a Gemfile:
+
+<pre>
+$ rails generate clean:gemfile
+</pre>
+
+h2. Clean a Routes File
+
+Remove commented lines and multiple blank lines from the file *config/routes.rb*:
+
+<pre>
+$ rails generate clean:routes
+</pre>
+
 h2. Issues
 
 Any issues? Please create an "issue":http://github.com/RailsApps/rails_apps_pages/issues on GitHub. Reporting issues (and patching!) helps everyone.
