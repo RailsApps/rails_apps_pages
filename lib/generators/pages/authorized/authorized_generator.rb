@@ -8,6 +8,7 @@ module Pages
       desc "Create pages to accompany a User model when authorization is available."
 
       def create_page
+        ### assumes we are using Devise for authentication
         ### assumes we are using Pundit for authorization
         copy_file 'users/_user.html.erb', 'app/views/users/_user.html.erb'
         copy_file 'users/index.html.erb', 'app/views/users/index.html.erb'

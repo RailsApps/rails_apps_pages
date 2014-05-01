@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.2.0 May 1, 2014
+
+* fixes for 'authorized' generator
+
 h3. 0.1.0 May 1, 2014
 
 * initial release
