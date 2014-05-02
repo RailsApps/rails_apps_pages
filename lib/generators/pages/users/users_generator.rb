@@ -15,6 +15,8 @@ module Pages
         copy_file 'users_controller.rb', 'app/controllers/users_controller.rb'
         route = '  resources :users'
         inject_into_file 'config/routes.rb', route + "\n", :after => "devise_for :users\n"
+        copy_file 'registrations_controller.rb', 'app/controllers/registrations_controller.rb'
+        gsub_file 'config/routes.rb', /devise_for :users/, 'devise_for :users, :controllers => {:registrations => "registrations"}'
         copy_file 'visitors/index.html.erb', 'app/views/visitors/index.html.erb'
         copy_file 'visitors_controller.rb', 'app/controllers/visitors_controller.rb'
         route = '  root :to => "visitors#index"'

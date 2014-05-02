@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.3.0 May 1, 2014
+
+* add Devise registrations controller for 'users' and 'authorized' generators
+
 h3. 0.2.0 May 1, 2014
 
 * fixes for 'authorized' generator
