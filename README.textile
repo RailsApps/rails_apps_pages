@@ -61,6 +61,20 @@ root :to => "visitors#index"
 
 Why a "Visitors" controller? Why not a "Home" controller or "Welcome" controller? Those names are acceptable. But the home page often implements a user story for a persona named "visitor," so a "Visitors" controller is appropriate.
 
+h2. Generate an "About" Page
+
+To run the generator and create an "About" page:
+
+<pre>
+$ rails generate pages:about
+</pre>
+
+The generator will create:
+
+* app/views/pages/about.html.erb
+
+You'll need to install the "high_voltage gem":https://github.com/thoughtbot/high_voltage for the "About" page. The high_voltage gem makes it easy to add pages with static content (text that doesn't change), incorporating a site-wide application layout. The high_voltage gem provides the controller and routes needed to display any pages found in the *app/views/pages/* folder.
+
 h2. Generate User Pages Requiring Authentication
 
 If you have a User model and authentication with Devise, you might want to add pages to display a list of users or each user's profile, restricted to logged in users.
