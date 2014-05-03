@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.3.1 May 2, 2014
+
+* add a generator for an 'About' page
+
 h3. 0.3.0 May 1, 2014
 
 * add Devise registrations controller for 'users' and 'authorized' generators
