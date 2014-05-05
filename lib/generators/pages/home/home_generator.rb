@@ -14,6 +14,11 @@ module Pages
         inject_into_file 'config/routes.rb', route + "\n", :after => "routes.draw do\n"
       end
 
+      def add_tests
+        return unless File.exists?('spec/spec_helper.rb')
+        copy_file 'home_page_spec.rb', 'spec/features/visitors/home_page_spec.rb'
+      end
+
     end
   end
 end

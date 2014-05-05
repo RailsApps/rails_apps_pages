@@ -11,6 +11,11 @@ module Pages
         copy_file 'about.html.erb', 'app/views/pages/about.html.erb'
       end
 
+      def add_tests
+        return unless File.exists?('spec/spec_helper.rb')
+        copy_file 'about_page_spec.rb', 'spec/features/visitors/about_page_spec.rb'
+      end
+
     end
   end
 end
