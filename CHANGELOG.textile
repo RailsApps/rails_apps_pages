@@ -1,6 +1,6 @@
 h1. CHANGELOG
 
-h3. 0.4.0 unreleased
+h3. 0.4.0 May 6, 2014
 
 * generate tests when RSpec is installed
 * update Users controller to deny access to other users' profiles
