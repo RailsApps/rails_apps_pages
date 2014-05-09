@@ -5,7 +5,7 @@ Warden.test_mode!
 # Feature: User index page
 #   As a user
 #   I want to see a list of users
-#   So I can confirm the site has multiple users
+#   So I can see who has registered
 feature 'User index page' do
 
   # Scenario: User listed on index page
