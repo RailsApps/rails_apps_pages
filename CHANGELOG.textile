@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.4.2 May 10, 2014
+
+* additional 'devise' tags for RSpec tests
+
 h3. 0.4.1 May 10, 2014
 
 * add 'devise' tag to RSpec tests
