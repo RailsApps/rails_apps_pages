@@ -1,6 +1,6 @@
 h1. CHANGELOG
 
-h3. 0.4.1 unreleased
+h3. 0.4.1 May 10, 2014
 
 * add 'devise' tag to RSpec tests
 * change 'log in' to 'sign in' and 'logout' to 'sign out'
