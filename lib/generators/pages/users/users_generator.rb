@@ -24,8 +24,8 @@ module Pages
       def add_tests
         return unless File.exists?('spec/spec_helper.rb')
         copy_file 'spec/factories/users.rb', 'spec/factories/users.rb'
-        copy_file 'spec/features/users/log_in_spec.rb', 'spec/features/users/log_in_spec.rb'
-        copy_file 'spec/features/users/log_out_spec.rb', 'spec/features/users/log_out_spec.rb'
+        copy_file 'spec/features/users/sign_in_spec.rb', 'spec/features/users/sign_in_spec.rb'
+        copy_file 'spec/features/users/sign_out_spec.rb', 'spec/features/users/sign_out_spec.rb'
         copy_file 'spec/features/users/user_delete_spec.rb', 'spec/features/users/user_delete_spec.rb'
         copy_file 'spec/features/users/user_edit_spec.rb', 'spec/features/users/user_edit_spec.rb'
         copy_file 'spec/features/users/user_index_spec.rb', 'spec/features/users/user_index_spec.rb'

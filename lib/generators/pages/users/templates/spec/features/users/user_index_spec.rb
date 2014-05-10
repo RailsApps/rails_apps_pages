@@ -9,7 +9,7 @@ Warden.test_mode!
 feature 'User index page' do
 
   # Scenario: User listed on index page
-  #   Given I am logged in
+  #   Given I am signed in
   #   When I visit the user index page
   #   Then I see my own email address
   scenario 'user sees own email address' do

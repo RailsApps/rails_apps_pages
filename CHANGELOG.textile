@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.4.1 unreleased
+
+* change 'log in' to 'sign in' and 'logout' to 'sign out'
+
 h3. 0.4.0 May 6, 2014
 
 * generate tests when RSpec is installed

@@ -79,7 +79,7 @@ You'll need to install the "high_voltage gem":https://github.com/thoughtbot/high
 
 h2. Generate User Pages Requiring Authentication
 
-If you have a User model and authentication with Devise, you can add pages to display a list of users or each user's profile, restricted to logged in users.
+If you have a User model and authentication with Devise, you can add pages to display a list of users or each user's profile, restricted to signed in users.
 
 To run the generator and create pages to accompany a User model:
 
