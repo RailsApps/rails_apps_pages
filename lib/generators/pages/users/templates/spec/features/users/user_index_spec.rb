@@ -6,7 +6,7 @@ Warden.test_mode!
 #   As a user
 #   I want to see a list of users
 #   So I can see who has registered
-feature 'User index page' do
+feature 'User index page', :devise do
 
   # Scenario: User listed on index page
   #   Given I am signed in

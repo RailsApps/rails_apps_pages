@@ -6,7 +6,7 @@ Warden.test_mode!
 #   As a user
 #   I want to edit my user profile
 #   So I can change my email address
-feature 'User edit' do
+feature 'User edit', :devise do
 
   # Scenario: User changes email address
   #   Given I am signed in
