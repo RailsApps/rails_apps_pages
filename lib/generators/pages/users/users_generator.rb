@@ -15,10 +15,19 @@ module Pages
         copy_file 'users_controller.rb', 'app/controllers/users_controller.rb'
         route = '  resources :users'
         inject_into_file 'config/routes.rb', route + "\n", :after => "devise_for :users\n"
-        copy_file 'registrations_controller.rb', 'app/controllers/registrations_controller.rb'
-        gsub_file 'config/routes.rb', /devise_for :users/, 'devise_for :users, :controllers => {:registrations => "registrations"}'
         generate 'pages:home -f'
         copy_file 'visitors/index.html.erb', 'app/views/visitors/index.html.erb'
+      end
+
+      def add_name_field
+        if Object.const_defined?('User')
+          if User.column_names.include? 'name'
+            permitted = File.read(find_in_source_paths('permitted_parameters.rb'))
+            inject_into_file 'app/controllers/application_controller.rb', permitted + "\n", :after => "protect_from_forgery with: :exception\n"
+            prepend_file 'app/views/users/_user.html.erb', "<td><%= user.name %></td>\n"
+            inject_into_file 'app/views/users/show.html.erb', "\n<p>Name: <%= @user.name if @user.name %></p>", :before => "\n<p>Email"
+          end
+        end
       end
 
       def add_tests
