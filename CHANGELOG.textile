@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.4.4 May 13, 2014
+
+* RSpec tests that use Warden test helpers need a reset action
+
 h3. 0.4.3 May 10, 2014
 
 * use Devise 'lazy way' to add name attribute to permitted parameters
