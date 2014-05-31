@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.4.5 May 31, 2014
+
+* user pages for OmniAuth
+
 h3. 0.4.4 May 13, 2014
 
 * RSpec tests that use Warden test helpers need a reset action
