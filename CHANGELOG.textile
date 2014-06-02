@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.4.6 June 2, 2014
+
+* update for RSpec 3.0
+
 h3. 0.4.5 May 31, 2014
 
 * user pages for OmniAuth
