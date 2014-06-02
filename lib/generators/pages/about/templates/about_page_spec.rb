@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 # Feature: 'About' page
 #   As a visitor
