@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.4.7 June 4, 2014
+
+* "require 'rails_helper'" not needed when it is included in the '.rspec' file
+
 h3. 0.4.6 June 2, 2014
 
 * update for RSpec 3.0
