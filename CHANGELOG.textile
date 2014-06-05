@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.4.9 June 5, 2014
+
+* minor improvement for Devise 'delete user' test for RSpec 3.0
+
 h3. 0.4.8 June 4, 2014
 
 * skip a slow test when using RSpec with Devise
