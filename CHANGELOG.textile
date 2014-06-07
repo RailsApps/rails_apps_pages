@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.0 June 6, 2014
+
+* tests for Devise are now available in the rails_apps_testing gem (removed here)
+
 h3. 0.4.9 June 5, 2014
 
 * minor improvement for Devise 'delete user' test for RSpec 3.0
