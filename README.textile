@@ -95,7 +95,6 @@ The generator will create:
 * app/views/users/index.html.erb
 * app/views/users/show.html.erb
 * app/views/visitors/index.html.erb
-* plus tests (if RSpec is installed)
 
 It will also add routes to the *config/routes.rb* file.
 

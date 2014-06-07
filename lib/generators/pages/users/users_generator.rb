@@ -44,22 +44,6 @@ module Pages
         end
       end
 
-      def add_devise_tests
-        return unless File.exists?('config/initializers/devise.rb')
-        return unless File.exists?('spec/spec_helper.rb')
-        copy_file 'spec/factories/users.rb', 'spec/factories/users.rb'
-        copy_file 'spec/features/users/sign_in_spec.rb', 'spec/features/users/sign_in_spec.rb'
-        copy_file 'spec/features/users/sign_out_spec.rb', 'spec/features/users/sign_out_spec.rb'
-        copy_file 'spec/features/users/user_delete_spec.rb', 'spec/features/users/user_delete_spec.rb'
-        copy_file 'spec/features/users/user_edit_spec.rb', 'spec/features/users/user_edit_spec.rb'
-        copy_file 'spec/features/users/user_index_spec.rb', 'spec/features/users/user_index_spec.rb'
-        copy_file 'spec/features/users/user_show_spec.rb', 'spec/features/users/user_show_spec.rb'
-        copy_file 'spec/features/visitors/sign_up_spec.rb', 'spec/features/visitors/sign_up_spec.rb'
-        copy_file 'spec/models/user_spec.rb', 'spec/models/user_spec.rb'
-        copy_file 'spec/support/helpers/session_helpers.rb', 'spec/support/helpers/session_helpers.rb'
-        copy_file 'spec/support/helpers.rb', 'spec/support/helpers.rb'
-      end
-
     end
   end
 end
