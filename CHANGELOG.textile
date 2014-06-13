@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.1 June 13, 2014
+
+* updated User controller and policy for Pundit example
+
 h3. 0.5.0 June 6, 2014
 
 * tests for Devise are now available in the rails_apps_testing gem (removed here)
