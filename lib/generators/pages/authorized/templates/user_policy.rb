@@ -19,7 +19,7 @@ class UserPolicy
   end
 
   def destroy?
-    raise "Cannot delete yourself." if @current_user == @user
+    return false if @current_user == @user
     @current_user.admin?
   end
 
