@@ -36,8 +36,7 @@ module Pages
         return unless File.exists?('config/initializers/devise.rb')
         if Object.const_defined?('User')
           if User.column_names.include? 'name'
-            permitted = File.read(find_in_source_paths('devise/permitted_parameters.rb'))
-            inject_into_file 'app/controllers/application_controller.rb', permitted + "\n", :after => "protect_from_forgery with: :exception\n"
+            copy_file 'devise/devise_permitted_parameters.rb', 'config/initializers/devise_permitted_parameters.rb'
             prepend_file 'app/views/users/_user.html.erb', "<td><%= link_to user.name, user %></td>\n"
             inject_into_file 'app/views/users/show.html.erb', "\n<p>Name: <%= @user.name if @user.name %></p>", :before => "\n<p>Email"
           end

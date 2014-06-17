@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.3 June 17, 2014
+
+* Devise permitted parameters moved to 'config/initializers/devise_permitted_parameters.rb'
+
 h3. 0.5.2 June 14, 2014
 
 * updated policy for Pundit example
