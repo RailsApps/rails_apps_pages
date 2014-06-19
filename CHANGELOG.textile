@@ -1,8 +1,9 @@
 h1. CHANGELOG
 
-h3. 0.5.4 unreleased
+h3. 0.5.4 June 19, 2014
 
 * generate a home page to accompany the 'about' page
+* replace 'lorem ipsum' with an informative description
 
 h3. 0.5.3 June 17, 2014
 
