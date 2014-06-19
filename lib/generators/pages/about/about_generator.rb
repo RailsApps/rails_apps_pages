@@ -8,6 +8,7 @@ module Pages
       desc "Create an about page (requires the high_voltage gem)"
 
       def create_page
+        generate 'pages:home -f'
         copy_file 'about.html.erb', 'app/views/pages/about.html.erb'
       end
 
