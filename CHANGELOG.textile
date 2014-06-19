@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.5 June 19, 2014
+
+* don't generate 'users' pages when generating 'authorized' pages
+
 h3. 0.5.4 June 19, 2014
 
 * generate a home page to accompany the 'about' page
