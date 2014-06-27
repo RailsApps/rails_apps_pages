@@ -24,12 +24,11 @@ module Pages
 
       def create_omniauth_pages
         return unless File.exists?('config/initializers/omniauth.rb')
-        copy_file 'users/edit.html.erb', 'app/views/users/edit.html.erb'
         copy_file 'omniauth/users_controller.rb', 'app/controllers/users_controller.rb'
-        route = '  resources :users, :only => [:index, :show, :edit, :update ]'
+        route = '  resources :users, :only => [:index, :show]'
         inject_into_file 'config/routes.rb', route + "\n", :after => "root :to => \"visitors#index\"\n"
-        prepend_file 'app/views/users/_user.html.erb', "<td><%= link_to user.name, user %></td>\n"
-        inject_into_file 'app/views/users/show.html.erb', "\n<p>Name: <%= @user.name if @user.name %></p>", :before => "\n<p>Email"
+        copy_file 'omniauth/_user.html.erb', 'app/views/users/_user.html.erb'
+        copy_file 'omniauth/show.html.erb', 'app/views/users/show.html.erb'
       end
 
       def add_devise_name_field

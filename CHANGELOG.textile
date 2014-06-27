@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.7 June 26, 2014
+
+* remove 'capture email' feature from rails-omniauth example application
+
 h3. 0.5.6 June 19, 2014
 
 * add files to integrate Pundit with OmniAuth
