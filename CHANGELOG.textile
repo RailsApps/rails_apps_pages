@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.8 June 26, 2014
+
+* don't set routes for OmniAuth applications
+
 h3. 0.5.7 June 26, 2014
 
 * remove 'capture email' feature from rails-omniauth example application
