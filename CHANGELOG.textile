@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.9 June 30, 2014
+
+* use new style routes syntax
+
 h3. 0.5.8 June 26, 2014
 
 * don't set routes for OmniAuth applications

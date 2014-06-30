@@ -10,7 +10,7 @@ module Pages
       def create_page
         copy_file 'index.html.erb', 'app/views/visitors/index.html.erb'
         copy_file 'visitors_controller.rb', 'app/controllers/visitors_controller.rb'
-        route = '  root :to => "visitors#index"'
+        route = "  root to: 'visitors#index'"
         inject_into_file 'config/routes.rb', route + "\n", :after => "routes.draw do\n"
       end
 
