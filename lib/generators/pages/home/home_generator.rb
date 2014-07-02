@@ -8,6 +8,7 @@ module Pages
       desc "Create a home page"
 
       def create_page
+        return if File.exists?('app/views/visitors/index.html.erb')
         copy_file 'index.html.erb', 'app/views/visitors/index.html.erb'
         copy_file 'visitors_controller.rb', 'app/controllers/visitors_controller.rb'
         route = "  root to: 'visitors#index'"

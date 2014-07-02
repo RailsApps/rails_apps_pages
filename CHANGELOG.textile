@@ -2,6 +2,7 @@ h1. CHANGELOG
 
 h3. 0.5.10 unreleased
 
+* don't generate a home page if it already exists
 * generate routes for OmniAuth for users pages
 
 h3. 0.5.9 June 30, 2014
