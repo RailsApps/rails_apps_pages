@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.10 unreleased
+
+* generate routes for OmniAuth for users pages
+
 h3. 0.5.9 June 30, 2014
 
 * use new style routes syntax
