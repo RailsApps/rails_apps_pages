@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.11 July 13, 2014
+
+* generate JavaScript for analytics
+
 h3. 0.5.10 July 2, 2014
 
 * don't generate a home page if it already exists

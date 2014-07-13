@@ -131,6 +131,20 @@ Remove commented lines and multiple blank lines from the file *config/routes.rb*
 $ rails generate clean:routes
 </pre>
 
+h2. Generate Analytics Files
+
+Add a file containing JavaScript code to set up page-view tracking with "Google Analytics":http://www.google.com/analytics/:
+
+<pre>
+$ rails generate analytics:google
+</pre>
+
+Add a file containing JavaScript code to set up page-view tracking with "Segment.io":https://segment.io/:
+
+<pre>
+$ rails generate analytics:segmentio
+</pre>
+
 h2. Issues
 
 Any issues? Please create an "issue":http://github.com/RailsApps/rails_apps_pages/issues on GitHub. Reporting issues (and patching!) helps everyone.
