@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.12 August 14, 2014
+
+* minor change to routes for OmniAuth user pages
+
 h3. 0.5.11 July 13, 2014
 
 * generate JavaScript for analytics

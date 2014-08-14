@@ -1,3 +1,3 @@
 module RailsAppsPages
-  VERSION = "0.5.11"
+  VERSION = "0.5.12"
 end

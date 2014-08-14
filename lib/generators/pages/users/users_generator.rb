@@ -27,7 +27,7 @@ module Pages
         copy_file 'omniauth/users_controller.rb', 'app/controllers/users_controller.rb'
         copy_file 'omniauth/_user.html.erb', 'app/views/users/_user.html.erb'
         copy_file 'omniauth/show.html.erb', 'app/views/users/show.html.erb'
-        route = '  resources :users, :only => [:index, :show]'
+        route = '  resources :users'
         inject_into_file 'config/routes.rb', route + "\n", :after => "routes.draw do\n"
       end
 
