@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.15 September 14, 2014
+
+* generate a navlink for Upmin using the 'rails_layout' gem instead
+
 h3. 0.5.14 September 14, 2014
 
 * add generator for Upmin for an admin interface
