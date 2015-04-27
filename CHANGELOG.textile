@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.5.16 April 27, 2015
+
+* 'before_filter' becomes 'before_action' for upcoming Rails 5.0
+
 h3. 0.5.15 September 14, 2014
 
 * generate a navlink for Upmin using the 'rails_layout' gem instead
