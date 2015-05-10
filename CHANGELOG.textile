@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.6.0 May 10, 2015
+
+* add 'Bare' theme from startbootstrap.com
+
 h3. 0.5.16 April 27, 2015
 
 * 'before_filter' becomes 'before_action' for upcoming Rails 5.0
