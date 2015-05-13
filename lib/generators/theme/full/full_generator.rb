@@ -8,6 +8,7 @@ module Theme
       desc "A Bootstrap HTML starter template (from startbootstrap.com)"
 
       def create_page
+        copy_file 'index.html', 'app/views/visitors/index.html.erb'
         copy_file 'full.css', 'app/assets/stylesheets/full.css'
       end
 
