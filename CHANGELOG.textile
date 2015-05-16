@@ -6,6 +6,7 @@ h3. 0.6.1 unreleased
 * add 'Blog Home' theme from startbootstrap.com
 * add 'Heroic Features' theme from startbootstrap.com
 * add 'One Page Wonder' theme from startbootstrap.com
+* add 'Round About' theme from startbootstrap.com
 
 h3. 0.6.0 May 10, 2015
 
