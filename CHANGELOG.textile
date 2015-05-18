@@ -9,6 +9,7 @@ h3. 0.6.1 unreleased
 * add 'Round About' theme from startbootstrap.com
 * add 'Small Business' theme from startbootstrap.com
 * add 'The Big Picture' theme from startbootstrap.com
+* add 'Thumbnail Gallery' theme from startbootstrap.com
 
 h3. 0.6.0 May 10, 2015
 
