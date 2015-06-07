@@ -12,6 +12,8 @@ h3. 0.6.1 unreleased
 * add 'Thumbnail Gallery' theme from startbootstrap.com
 * add 'Full Width Pics' theme from startbootstrap.com
 * add '1 Col Portfolio' theme from startbootstrap.com
+* add '2 Col Portfolio' theme from startbootstrap.com
+* add '3 Col Portfolio' theme from startbootstrap.com
 
 h3. 0.6.0 May 10, 2015
 
