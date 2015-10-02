@@ -8,9 +8,11 @@ If you like the RailsApps Pages gem, you might be interested in the "RailsLayout
 
 h4. !http://railsapps.github.io/images/join/join-railsapps.png(Join RailsApps)!:http://railsapps.github.io/
 
-h4. Support the RailsApps Project
+h4. From the RailsApps Project
 
-If the RailsApps Pages gem is useful to you, please accept our invitation to "join the RailsApps project":http://railsapps.github.io/. The RailsApps project provides example applications, tutorials, and starter tools, including the RailsApps Pages gem.
+The "RailsApps":http://railsapps.github.io/ open source project offers starter applications and tutorials for Rails developers. Generate the applications with the Rails Composer tool.
+
+All the code is explained in the Capstone Rails Tutorials. You can purchase the "Capstone Rails Tutorials":https://tutorials.railsapps.org/ to support the project.
 
 h2. Install the Gem
 
