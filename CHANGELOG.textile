@@ -17,6 +17,7 @@ h3. 0.6.1 unreleased
 * add '4 Col Portfolio' theme from startbootstrap.com
 * add 'Modern Business' theme from startbootstrap.com
 * add 'Simple Sidebar' theme from startbootstrap.com
+* add 'Stylish Portfolio' theme from startbootstrap.com
 
 h3. 0.6.0 May 10, 2015
 
