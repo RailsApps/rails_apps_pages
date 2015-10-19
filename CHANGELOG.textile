@@ -20,6 +20,7 @@ h3. 0.6.1 unreleased
 * add 'Stylish Portfolio' theme from startbootstrap.com
 * add 'Portfolio Item' theme from startbootstrap.com
 * add 'Business Casual' theme from startbootstrap.com
+* add 'Shop Homepage' theme from startbootstrap.com
 
 h3. 0.6.0 May 10, 2015
 
