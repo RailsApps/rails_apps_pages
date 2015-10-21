@@ -9,6 +9,7 @@ module Theme
 
       def create_page
         copy_file 'index.html', 'app/views/visitors/index.html.erb'
+        copy_file 'blogpost.html', 'app/views/pages/blogpost.html.erb'
         copy_file 'blog-home.css', 'app/assets/stylesheets/blog-home.css'
       end
 

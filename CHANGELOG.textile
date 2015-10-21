@@ -24,6 +24,7 @@ h3. 0.6.1 unreleased
 * add 'Shop Item' theme from startbootstrap.com
 * add 'Landing Page' theme from startbootstrap.com
 * add 'Clean Blog' theme from startbootstrap.com
+* add 'Blog Post' theme from startbootstrap.com to blog_home theme
 
 h3. 0.6.0 May 10, 2015
 
