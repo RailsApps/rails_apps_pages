@@ -13,22 +13,22 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="index.html">Business Casual</a>
+            <%= link_to 'Business Casual', root_path, class: 'navbar-brand' %>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="index.html">Home</a>
+                    <%= link_to 'Home', root_path %>
                 </li>
                 <li>
                     <%= link_to 'About', page_path('about') %>
                 </li>
                 <li>
-                    <a href="blog.html">Blog</a>
+                    <%= link_to 'Blog', page_path('blog') %>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <%= link_to 'Contact', page_path('contact') %>
                 </li>
             </ul>
         </div>
