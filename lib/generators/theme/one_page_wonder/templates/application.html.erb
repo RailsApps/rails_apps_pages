@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <%= render 'layouts/navigation' %>
+      <%= render 'layouts/navigation' unless current_page?(root_path) %>
     </header>
       <%= render 'layouts/messages' %>
       <%= yield %>
