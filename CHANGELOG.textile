@@ -1,6 +1,6 @@
 h1. CHANGELOG
 
-h3. 0.6.1 unreleased
+h3. 0.6.2 October 26, 2015
 
 * add 'Business Frontpage' theme from startbootstrap.com
 * add 'Blog Home' theme from startbootstrap.com
