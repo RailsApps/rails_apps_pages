@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h3. 0.6.3 November 4, 2015
+
+* modify Bootstrap layouts to accommodate Devise or OmniAuth
+
 h3. 0.6.2 October 26, 2015
 
 * add 'Business Frontpage' theme from startbootstrap.com

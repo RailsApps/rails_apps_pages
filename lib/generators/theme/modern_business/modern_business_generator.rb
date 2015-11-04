@@ -98,6 +98,12 @@ module Theme
         LINKS
       end
 
+      def modify_layout_for_auth_links
+        return unless File.exists?('app/views/layouts/_nav_links_for_auth.html.erb')
+        partial = "<%= render 'layouts/navigation_links' %>\n        <%= render 'layouts/nav_links_for_auth' %>"
+        gsub_file "app/views/layouts/_navigation.html.erb", /<%= render 'layouts\/navigation_links' %>/, partial
+      end
+
     end
   end
 end
