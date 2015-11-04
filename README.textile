@@ -147,6 +147,45 @@ Add a file containing JavaScript code to set up page-view tracking with "Segment
 $ rails generate analytics:segmentio
 </pre>
 
+h2. Generate Bootstrap Page Layouts
+
+See the "Start Bootstrap":http://startbootstrap.com/template-categories/all/ site for a collection of Bootstrap themes and templates that you can generate with the rails_apps_pages gem.
+
+Here are the Bootstrap page layouts you can generate:
+
+<pre>
+ 1)  None
+ 2)  1 Col Portfolio
+ 3)  2 Col Portfolio
+ 4)  3 Col Portfolio
+ 5)  4 Col Portfolio
+ 6)  Bare
+ 7)  Blog Home
+ 8)  Business Casual
+ 9)  Business Frontpage
+10)  Clean Blog
+11)  Full Width Pics
+12)  Heroic Features
+13)  Landing Page
+14)  Modern Business
+15)  One Page Wonder
+16)  Portfolio Item
+17)  Round About
+18)  Shop Homepage
+19)  Shop Item
+20)  Simple Sidebar
+21)  Small Business
+22)  Stylish Portfolio
+23)  The Big Picture
+24)  Thumbnail Gallery
+</pre>
+
+To see the commands that generate the Bootstrap page layouts, run:
+
+<pre>
+$ rails g
+</pre>
+
 h2. Issues
 
 Any issues? Please create an "issue":http://github.com/RailsApps/rails_apps_pages/issues on GitHub. Reporting issues (and patching!) helps everyone.
