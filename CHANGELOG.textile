@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h4. 0.6.5 October 1, 2016
+
+* fix 'devise_permitted_parameters.rb' file per https://github.com/plataformatec/devise#strong-parameters
+
 h3. 0.6.4 November 4, 2015
 
 * fix 'Modern Business' theme to accommodate Devise or OmniAuth
