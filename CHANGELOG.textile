@@ -1,5 +1,9 @@
 h1. CHANGELOG
 
+h4. 0.6.7 October 16, 2016
+
+* change redirects from ':back' to 'root_path'
+
 h4. 0.6.6 October 3, 2016
 
 * move Devise permitted parameters from initializer to application controller (fix https://github.com/RailsApps/rails-devise/issues/17)
